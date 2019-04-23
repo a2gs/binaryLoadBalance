@@ -1,6 +1,6 @@
 # binaryLoadBalance
 A binary (with offset regulation) load balance. Sample:<br><br>
-'''
+<pre>
 Usage:
 ./binaryLoadBalance <N_RANGES> [0 - <OPENED_END>[ <OFFSET ( [0.0 - 2.0] where 1.0=50% )>
 
@@ -14,5 +14,5 @@ Usage:
 7 range: [4979 - 4991[                  (total of elements: 12)
 8 range: [4991 - 5000[                  (total of elements: 9)
 
-Grand total: 5000<br>
-'''
+Grand total: 5000
+</pre>
