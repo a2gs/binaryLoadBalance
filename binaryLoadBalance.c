@@ -41,8 +41,9 @@ int loadBalance(range_t *segs, unsigned int segments, unsigned long range, float
 
 	fRange = 0.0;
 	fixedFloatRange = (float)range;
+	segments--;
 
-	for(i = 0; i < segments - 1; i++){
+	for(i = 0; i < segments; i++){
 
 		segs[i].closedStart = (unsigned long)trunc(fRange);
 
