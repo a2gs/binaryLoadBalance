@@ -12,7 +12,7 @@ CC = gcc
 RM = rm -f
 
 all: clean
-	$(CC) -o loadBalance loadBalance.c $(LIBS) $(CFLAGS)
+	$(CC) -o binaryLoadBalance binaryLoadBalance.c $(LIBS) $(CFLAGS)
 
 clean:
-	-$(RM) loadBalance
+	-$(RM) binaryLoadBalance
