@@ -1,6 +1,6 @@
 # binaryLoadBalance
 A binary (with offset regulation) load balance. Sample:<br><br>
-
+<pre>
 ./binaryLoadBalance 8 5000 1.2<br>
 1 range: \[0 - 3000\[                     (total of elements: 3000)<br>
 2 range: \[3000 - 4200\[                  (total of elements: 1200)<br>
@@ -12,3 +12,4 @@ A binary (with offset regulation) load balance. Sample:<br><br>
 8 range: \[4991 - 5000\[                  (total of elements: 9)<br><br>
 
 Grand total: 5000<br>
+</pre>
