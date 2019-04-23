@@ -1,5 +1,5 @@
 # binaryLoadBalance
-A binary (with offset regulation) load balance.<p>Sample:<br><br>
+A binary (with offset regulation) load balance.<p>Sample:<br>
 <pre>
 Usage:
 ./binaryLoadBalance &ltN_RANGES&gt [0 - &ltOPENED_END&gt[ &ltOFFSET ( [0.0 - 2.0] where 1.0=50% )&gt
