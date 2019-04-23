@@ -1,15 +1,14 @@
 /* Andre Augusto Giannotti Scota (a2gs)
  * andre.scota@gmail.com
  *
- * PAINEL
+ * binaryLoadBalance (a binary (with offset regulation) load balance)
  *
  * MIT License
  *
  */
 
 
-/* serv.c
- * Server creation.
+/* binaryLoadBalance.c
  *
  *  Who     | When       | What
  *  --------+------------+----------------------------
